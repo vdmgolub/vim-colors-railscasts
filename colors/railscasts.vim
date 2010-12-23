@@ -84,6 +84,9 @@ highlight rubyPredefinedConstant    guifg=#DA4939 ctermfg=167
 highlight rubyPseudoVariable        guifg=#FFC66D ctermfg=221
 highlight rubyStringDelimiter       guifg=#A5C261 ctermfg=143
 
+highlight NonText                   guifg=#404040 ctermfg=8
+highlight SpecialKey                guifg=#404040 ctermfg=8
+
 highlight xmlTag                    guifg=#E8BF6A ctermfg=179
 highlight xmlTagName                guifg=#E8BF6A ctermfg=179
 highlight xmlEndTag                 guifg=#E8BF6A ctermfg=179
