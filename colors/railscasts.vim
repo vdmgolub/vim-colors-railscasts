@@ -48,6 +48,10 @@ highlight Normal                    guifg=#E6E1DC guibg=#141414
 highlight Cursor                    guifg=#000000 ctermfg=0 guibg=#FFFFFF ctermbg=15
 highlight CursorLine                guibg=#333333 guifg=NONE
 highlight CursorCol                 guibg=#333333 guifg=NONE
+highlight StatusLine                guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White cterm=bold
+highlight VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White
+highlight StatusLineNC              guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black ctermbg=Grey
+
 
 highlight Comment                   guifg=#BC9458 ctermfg=180 gui=italic
 highlight Constant                  guifg=#6D9CBE ctermfg=73
