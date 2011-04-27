@@ -75,6 +75,11 @@ hi Title                     guifg=#FFFFFF ctermfg=15
 hi Type                      guifg=#DA4939 ctermfg=167 gui=NONE cterm=NONE
 hi Visual                    guibg=#5A647E ctermbg=60
 
+hi link diffAdded            String
+hi link diffRemoved          Type
+hi link diffLine             PreProc
+hi link diffSubname          Comment
+
 hi DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#519F50 ctermbg=71
 hi DiffDelete                guifg=#E6E1DC ctermfg=7 guibg=#660000 ctermbg=52
 hi Special                   guifg=#DA4939 ctermfg=167
