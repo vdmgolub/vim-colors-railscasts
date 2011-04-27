@@ -56,20 +56,21 @@ hi VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=Black 
 
 hi Comment                   guifg=#BC9458 ctermfg=180 gui=italic
 hi Constant                  guifg=#6D9CBE ctermfg=73
-hi Define                    guifg=#CC7833 ctermfg=173
+hi link Identifier Constant
+hi Define                    guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
+hi Statement                 guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
 hi Error                     guifg=#FFC66D ctermfg=221 guibg=#990000 ctermbg=88
 hi Function                  guifg=#FFC66D ctermfg=221 gui=NONE cterm=NONE
-hi Identifier                guifg=#6D9CBE ctermfg=73  gui=NONE cterm=NONE
-hi Include                   guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
-hi PreCondit                 guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
 hi Keyword                   guifg=#CC7833 ctermfg=173 cterm=NONE
+hi link Include              Statement
+hi link PreCondit            Statement
+
 hi LineNr                    guifg=#595959 ctermfg=243 guibg=#2b2b2b ctermbg=235
-hi Number                    guifg=#A5C261 ctermfg=107
 hi String                    guifg=#A5C261 ctermfg=107
+hi link Number String
 hi PreProc                   guifg=#E6E1DC ctermfg=103
 hi Search                    guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=235
 hi IncSearch                 guifg=White   guibg=Black ctermfg=White ctermbg=Black
-hi Statement                 guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
 hi Title                     guifg=#FFFFFF ctermfg=15
 hi Type                      guifg=#DA4939 ctermfg=167 gui=NONE cterm=NONE
 hi Visual                    guibg=#5A647E ctermbg=60
@@ -80,13 +81,13 @@ hi Special                   guifg=#DA4939 ctermfg=167
 
 hi pythonBuiltin             guifg=#6D9CBE ctermfg=73 gui=NONE cterm=NONE
 hi rubyBlockParameter        guifg=#FFFFFF ctermfg=15
-hi rubyConstant              guifg=#DA4939 ctermfg=167
+hi link rubyConstant           Type
+hi link rubyPredefinedConstant Type
 hi rubyInstanceVariable      guifg=#D0D0FF ctermfg=189
 hi rubyInterpolation         guifg=#519F50 ctermfg=107
 hi rubyLocalVariableOrMethod guifg=#D0D0FF ctermfg=189
-hi rubyPredefinedConstant    guifg=#DA4939 ctermfg=167
 hi rubyPseudoVariable        guifg=#FFC66D ctermfg=221
-hi rubyStringDelimiter       guifg=#A5C261 ctermfg=107
+hi link rubyStringDelimiter  String
 
 hi NonText                   guifg=#404040 ctermfg=8
 hi SpecialKey                guifg=#404040 ctermfg=8
