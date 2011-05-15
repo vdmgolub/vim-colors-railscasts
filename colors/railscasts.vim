@@ -80,7 +80,7 @@ hi link diffRemoved          Type
 hi link diffLine             PreProc
 hi link diffSubname          Comment
 
-hi DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#519F50 ctermbg=71
+hi DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#519F50 ctermbg=59
 hi DiffDelete                guifg=#E6E1DC ctermfg=7 guibg=#660000 ctermbg=52
 hi Special                   guifg=#DA4939 ctermfg=167
 
