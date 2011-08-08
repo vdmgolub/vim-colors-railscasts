@@ -51,8 +51,8 @@ hi Cursor                    guifg=#000000 ctermfg=0     guibg=#FFFFFF ctermbg=1
 hi CursorLine                guibg=#333333 guifg=NONE
 hi CursorCol                 guibg=#333333 guifg=NONE
 hi StatusLine                guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=153 cterm=bold
-hi StatusLineNC              guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black ctermbg=Grey
-hi VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White
+hi StatusLineNC              guifg=#444444 guibg=#aaaaaa gui=none ctermfg=233   ctermbg=237 cterm=none
+hi VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=237   ctermbg=237 cterm=none
 
 hi Comment                   guifg=#BC9458 ctermfg=180 gui=italic
 hi Constant                  guifg=#6D9CBE ctermfg=73
