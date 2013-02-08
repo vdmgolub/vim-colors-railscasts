@@ -81,7 +81,9 @@ hi link diffLine             PreProc
 hi link diffSubname          Comment
 
 hi DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#519F50 ctermbg=59
-hi DiffDelete                guifg=#E6E1DC ctermfg=7 guibg=#660000 ctermbg=52
+hi DiffDelete                guifg=#E6E1DC ctermfg=7 guibg=#660000 ctermbg=51
+hi DiffChange                guifg=#E6E1DC ctermfg=7 guibg=#A36029 ctermbg=130
+hi DiffText                  guifg=#FFFFFF ctermfg=15 guibg=#EE3333 ctermbg=124 gui=bold cterm=bold
 hi Special                   guifg=#DA4939 ctermfg=167
 
 hi pythonBuiltin             guifg=#6D9CBE ctermfg=73 gui=NONE cterm=NONE
