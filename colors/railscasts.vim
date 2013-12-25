@@ -115,8 +115,8 @@ hi MatchParen                guifg=#FFFFFF ctermfg=15 guibg=#005f5f ctermbg=23
 
 hi Ignore                    ctermfg=Black
 hi WildMenu                  guifg=Black   guibg=#ffff00 gui=bold cterm=bold
+hi Identifier                guifg=#D0D0FF ctermfg=189 guibg=NONE
 hi Directory                 guifg=#A5C261 ctermfg=107
-hi link Directory            Identifier
 
 hi Folded                    guifg=#F6F3E8 guibg=#444444 gui=NONE ctermbg=238 ctermfg=White cterm=NONE
 hi FoldColumn                none
